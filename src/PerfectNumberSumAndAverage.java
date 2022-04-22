@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class PerfectNumber {
+public class PerfectNumberSumAndAverage {
     public boolean isPerfectNumber(int num) {
         int sum = 1;
 
@@ -18,7 +18,7 @@ public class PerfectNumber {
     }
 
     public static void main(String[] args) {
-        PerfectNumber instance = new PerfectNumber();
+        PerfectNumberSumAndAverage instance = new PerfectNumberSumAndAverage();
         Scanner reader = new Scanner(System.in);
         System.out.println("Enter a value: 0-end, 1-find perfect number, 2- find average.");
         int command = reader.nextInt();
